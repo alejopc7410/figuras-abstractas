@@ -1,6 +1,10 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        polimorfismo(new Triangulo("Triángulo", 5, 10));
+        polimorfismo(new Cuadrado("Cuadrado", 5));
+        polimorfismo(new Pentagono("Pentágono", 5));
+        polimorfismo(new Hexagono("Hexágono", 5));
+        polimorfismo(new Circulo("Círculo", 5));
     }
 
     public static void polimorfismo (Figura figura) {
